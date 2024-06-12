@@ -1,0 +1,63 @@
+.menu-card{
+  display: grid;
+  align-items: center;
+  background-color: white;
+  width: 340px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 15px;
+}
+.menu-img{
+  justify-self: center;
+}
+.price-rating-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.rating-stats{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.rating-stats .rating-star {
+  width: 15px;
+  color: goldenrod;
+}
+.buy-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+}
+.add-to-card-button, .buy-now-button{
+  width: 100%;
+  height: 35px;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.add-to-card-button{
+  background-color: rgb(247, 149, 96);
+}
+.buy-now-button{
+  background-color: rgb(87, 228, 87);
+}
+.price{
+  font-size: 25px;
+}
+.option{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.option-item{
+  display: flex;
+  gap: 5px;
+}
+.menu-items{
+  margin-top: 5px;
+}

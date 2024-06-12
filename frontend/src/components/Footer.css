@@ -1,0 +1,32 @@
+.footer-wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.footer-row-1{
+  width: 200px;
+}
+.footer-logo{
+  width: 110px;
+}
+.footer-icons{
+  margin-top: 15px;
+  /* display: flex; */
+  text-align: center;
+  gap: 25px;
+}
+.copywrite{
+  margin-top: 15px;
+  text-align: center;
+}
+.copywrite-info{
+  margin-top: 15px;
+}
+.footer-wrapper p{
+  font-size: 14px;
+}
+.footer-wrapper h3, .copywrite p{
+  font-size: 14px;
+  margin-bottom: 7px;
+}

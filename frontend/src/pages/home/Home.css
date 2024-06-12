@@ -1,0 +1,36 @@
+.banner-section {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.category-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.category-section h2 {
+  margin-bottom: 30px;
+}
+.category-cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.service-section {
+  margin-bottom: 50px;
+}
+.service-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.footer-section {
+  background-color: rgb(247, 213, 194);
+  padding: 15px;
+  border-radius: 25px 25px 0 0;
+}

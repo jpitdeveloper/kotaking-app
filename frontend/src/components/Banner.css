@@ -1,0 +1,17 @@
+.banner-cat h1{
+  margin-bottom: 7px;
+}
+.banner-cat p{
+  margin-bottom: 50px;
+}
+.primary-button {
+  color: white;
+  background: rgba(255, 92, 1, 1);
+  border: none;
+  height: 35px;
+  width: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
