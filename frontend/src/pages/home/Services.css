@@ -51,9 +51,6 @@
 /* xs */
 
 @media (max-width: 475px) {
-  	.container {
-		width: 100%;
-	}
   .service-card{
     width: 130px;
     height: 180px;

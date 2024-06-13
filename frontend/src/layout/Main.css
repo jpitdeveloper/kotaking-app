@@ -92,6 +92,6 @@ span {
 /* xs */
 @media (max-width: 475px) {
   .container {
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 }
