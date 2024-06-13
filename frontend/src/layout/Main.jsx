@@ -7,9 +7,9 @@ import './Main.css';
 const Main = () => {
   return (
     <div className="container">
-      <Navbar />
+      {/* <Navbar /> */}
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

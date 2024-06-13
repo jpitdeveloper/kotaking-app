@@ -1,107 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-body{
+body {
   background-color: rgba(255, 251, 243, 1);
   font-family: "Inter", sans-serif;
 }
-h1{
+h1 {
   font-size: 60px;
 }
 .container {
-	max-width: 1536px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
-span{
+span {
   color: rgba(255, 92, 1, 1);
 }
 .uppercase {
   text-transform: uppercase;
 }
+.primary-button {
+  color: white;
+  background: rgba(255, 92, 1, 1);
+  border: none;
+  height: 35px;
+  width: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
 
 /* 2xl */
 @media (max-width: 1536px) {
-	.container {
-		max-width: 1280px;
-	}
-  .banner-section .banner-img img{
-    width: 650px;
+  .container {
+    max-width: 1280px;
   }
 }
 
 /* xl */
 @media (max-width: 1280px) {
-	.container {
-		max-width: 1024px;
-	}
-  h1{
-    font-size: 50px;
+  .container {
+    max-width: 1024px;
   }
-  .banner-section .banner-img img{
-    width: 450px;
+  h1 {
+    font-size: 50px;
   }
 }
 
 /* lg */
 @media (max-width: 1024px) {
-	.container {
-		max-width: 768px;
-	}
-  h1{
-    font-size: 40px;
+  .container {
+    max-width: 768px;
   }
-  .banner-section .banner-img img{
-    width: 300px;
+  h1 {
+    font-size: 40px;
   }
 }
 
 /* md */
 @media (max-width: 768px) {
-	.container {
-		max-width: 640px;
-	}
-  h1{
-    font-size: 30px;
+  .container {
+    max-width: 640px;
   }
-  .banner-section .banner-img img{
+  h1 {
+    font-size: 32px;
+  }
+  .banner-section .banner-img img {
     width: 250px;
   }
-  .footer-wrapper{
+  .footer-wrapper {
     flex-direction: column;
   }
 }
 
 /* sm */
 @media (max-width: 640px) {
-	.container {
-		max-width: 475px;
-	}
-  h1{
-    font-size: 20px;
+  .container {
+    max-width: 475px;
   }
-  p{
-    font-size: 14px;
+  h1 {
+    font-size: 24px;
   }
 }
 
 /* xs */
 @media (max-width: 475px) {
-	.container {
-		width: 100%;
-	}
-  h1{
-    font-size: 18px;
-  }
-  p{
-    font-size: 14px;
-  }
-  .banner-section .banner-img img{
-    width: 200px;
+  .container {
+    max-width: 100%;
   }
 }

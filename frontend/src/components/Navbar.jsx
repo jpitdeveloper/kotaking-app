@@ -33,13 +33,13 @@ const Navbar = () => {
           </Link>
         </div>
         <div
-            className="menu"
-            onClick={() => {
-              setMenuOpen(!menuOpen);
-            }}
-          >
-            <Menu />
-          </div>
+          className="menu"
+          onClick={() => {
+            setMenuOpen(!menuOpen);
+          }}
+        >
+          <Menu />
+        </div>
       </nav>
     </>
   );

@@ -1,8 +1,15 @@
+.popular-menu-cards-wrapper{
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .menu-card{
   display: grid;
   align-items: center;
   background-color: white;
-  width: 340px;
+  width: 280px;
   height: 100%;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 25px;

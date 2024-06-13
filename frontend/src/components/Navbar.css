@@ -1,16 +1,16 @@
 .active{
   background-color: rgba(255, 92, 1, 1);;
 }
-nav .logo img{
-  width: 140px;
-}
+
 nav{
-  margin-top: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
-  top: 8px;
+  top: 0px;
+  padding: 8px;
+  padding-right: 25px;
+  background-color: #b91111;
 }
 nav ul{
   display: flex;
@@ -45,27 +45,32 @@ nav .menu{
 		max-width: 640px;
 	}
   nav{
-    display: flex;
+    height: 40px;
+    /* width: 99%; */
+  
   }
   nav .logo{
     position: absolute;
-    top: 8px;
+    top: 14px;
+  }
+  nav .logo img{
+    width: 120px;
   }
   .user-cart{
     position: absolute;
-    top: 8px;
-    right: 10%;
   }
   nav .menu{
     display: flex;
-    right: 0;
   }
   nav ul{
     display: none;
     flex-direction: column;
-    width: 100%;
+    /* width: %; */
     gap: 15px;
-    margin-top: 50px;;
+    margin-top: 200px;
+    background-color: #b13e09f3;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
   }
   nav ul.open{
     display: flex;
