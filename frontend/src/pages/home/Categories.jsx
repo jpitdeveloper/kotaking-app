@@ -2,36 +2,45 @@ import React from "react";
 import "./Categories.css";
 import categoryImg from "../../assets/images/category.png";
 
+const categoryItems = [
+  {
+    id: 1,
+    title: "Sphatlho",
+    des: "(12 Varients)",
+    image: categoryImg,
+  },
+  {
+    id: 2,
+    title: "Burger",
+    des: "(8 Varients)",
+    image: "../../assets/images/home/category/burger.png",
+  },
+  {
+    id: 3,
+    title: "Potato Fries",
+    des: "(3 Varients)",
+    image: "../../assets/images/home/category/potato-fries.png",
+  },
+  {
+    id: 4,
+    title: "Browse All",
+    des: "(80 Items)",
+    image: "../../assets/images/home/category/potato-fries.png",
+  },
+];
+
 const Category = () => {
   return (
     <>
       <h2>Popular Category</h2>
       <div className="categories-card-wrapper">
-        <div className="categories-card">
-          <img src={categoryImg} alt="category-image" />
-          <h4>Sphatlho</h4>
-          <p>(12 Varients)</p>
-        </div>
-        <div className="categories-card">
-          <img src={categoryImg} alt="category-image" />
-          <h4>Burger</h4>
-          <p>(8 Varients)</p>
-        </div>
-        <div className="categories-card">
-          <img src={categoryImg} alt="category-image" />
-          <h4>Potato Fries</h4>
-          <p>(3 Varient)</p>
-        </div>
-        <div className="categories-card">
-          <img src={categoryImg} alt="category-image" />
-          <h4>Hot Dog</h4>
-          <p>(4 Varients)</p>
-        </div>
-        <div className="categories-card">
-          <img src={categoryImg} alt="category-image" />
-          <h4>Fat Cake</h4>
-          <p>(1 Varient)</p>
-        </div>
+        {categoryItems.map((item, i) => (
+          <div className="categories-card" key={i}>
+            <img src={item.image} alt="category-image" />
+            <h4>{item.title}</h4>
+            <p>{item.des}</p>
+          </div>
+        ))}
       </div>
     </>
   );
