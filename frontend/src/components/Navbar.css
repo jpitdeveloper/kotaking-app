@@ -11,7 +11,7 @@ nav{
   padding: 8px;
   padding-right: 25px;
   background-color: #ffffff;
-  box-shadow: 0 0 10px 1px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 nav ul{
   display: flex;
@@ -66,7 +66,7 @@ nav .menu{
     background-color: #ffffff;
     padding: 10px;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0 16px 12px ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   
   }
   nav ul.open{

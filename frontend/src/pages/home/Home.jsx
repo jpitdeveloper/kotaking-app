@@ -11,7 +11,9 @@ const Home = () => {
       <div className="banner-section">
         <Banner />
       </div>
-      {/* <Categories/> */}
+      <div className="categories-section">
+        <Categories />
+      </div>
       {/* <SpecialMenu/>  */}
       {/* <Services/> */}
     </>

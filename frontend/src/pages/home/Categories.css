@@ -1,4 +1,11 @@
-.category-card {
+.categories-card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.categories-card {
   background-color: white;
   width: 180px;
   border-radius: 25px;

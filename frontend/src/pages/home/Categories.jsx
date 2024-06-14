@@ -5,19 +5,27 @@ import categoryImg from "../../assets/images/category.png";
 const Category = () => {
   return (
     <>
-      <div className="category-section">
-        <h2>Popular Category</h2>
-        <div className="category-cards-wrapper">
-          <div className="category-card">
-            <img src={categoryImg} alt="category-image" />
-            <h4>Sphatlho</h4>
-            <p>(12 Varients)</p>
-          </div>
-          <div className="category-card">
-            <img src={categoryImg} alt="category-image" />
-            <h4>Potato fries</h4>
-            <p>(3 Varients)</p>
-          </div>
+      <h2>Popular Category</h2>
+      <div className="categories-card-wrapper">
+        <div className="categories-card">
+          <img src={categoryImg} alt="category-image" />
+          <h4>Sphatlho</h4>
+          <p>(12 Varients)</p>
+        </div>
+        <div className="categories-card">
+          <img src={categoryImg} alt="category-image" />
+          <h4>Burger</h4>
+          <p>(8 Varients)</p>
+        </div>
+        <div className="categories-card">
+          <img src={categoryImg} alt="category-image" />
+          <h4>Hot Dogs</h4>
+          <p>(4 Varients)</p>
+        </div>
+        <div className="categories-card">
+          <img src={categoryImg} alt="category-image" />
+          <h4>Fat Cake</h4>
+          <p>(1 Varient)</p>
         </div>
       </div>
     </>

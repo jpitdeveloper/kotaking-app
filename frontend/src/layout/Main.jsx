@@ -6,13 +6,13 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <div className="container">
         <Outlet />
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
