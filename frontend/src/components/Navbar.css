@@ -41,7 +41,7 @@ nav a {
 }
 .user-cart {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 nav a:not(.active):hover {
   background-color: rgba(250, 193, 163, 0.349);
@@ -52,6 +52,21 @@ nav .menu {
   display: none;
   flex-direction: column;
   justify-content: space-between;
+}
+nav .user-cart .cart {
+  display: flex;
+}
+nav .user-cart .cart p {
+  position: absolute;
+  right: 58px;
+  background-color: rgba(255, 92, 1, 1);
+  font-size: 14px;
+  border-radius: 15px;
+  transition: 0.5s;
+  font-weight: bold;
+  width: 20px;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   .container {
