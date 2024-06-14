@@ -10,6 +10,7 @@
 .services-cards-wrapper{
   display: flex;
   gap: 7px;
+  flex-wrap: wrap;
 }
 .services-card{
   display: flex;
