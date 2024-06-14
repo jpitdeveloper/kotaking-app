@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul className={menuOpen ? "open" : ""}>
           <NavLink to="/">Home</NavLink>
           <Link>Menu</Link>
-          <Link to="">About</Link>
+          <Link to="">About Us</Link>
           <Link className="contact primary-button" to="#">Contact Us</Link>
         </ul>
         <div className="user-cart">

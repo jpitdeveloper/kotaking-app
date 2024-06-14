@@ -24,6 +24,9 @@ nav ul {
   display: flex;
   gap: 8px;
 }
+nav .logo img {
+  width: 110px;
+}
 nav ul a {
   display: flex;
   font-weight: bold;
