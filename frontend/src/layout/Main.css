@@ -79,10 +79,3 @@ span {
     max-width: 475px;
   }
 }
-
-/* xs */
-@media (max-width: 475px) {
-  .container {
-    /* max-width: 100%; */
-  }
-}
