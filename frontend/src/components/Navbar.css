@@ -1,7 +1,15 @@
 .active{
-  background-color: rgba(255, 92, 1, 1);;
-}
+  display: flex;
+  background: rgba(250, 194, 163, 1);;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
 
+}
 nav{
   display: flex;
   justify-content: space-between;
@@ -18,8 +26,12 @@ nav ul{
   gap: 50px;
 }
 nav ul a{
+  display: flex;
   font-weight: bold;
   font-size: 18px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
 }
 nav a{
   list-style: none;
@@ -31,7 +43,8 @@ nav a{
   gap: 10px;
 }
 nav a:not(.active):hover {
-  background-color: blue;
+  background-color: rgba(250, 194, 163, 1);
+  border-radius: 15px;
 }
 nav .menu{
   display: none;

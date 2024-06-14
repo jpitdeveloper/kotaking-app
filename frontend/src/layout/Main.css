@@ -28,11 +28,10 @@ span {
   color: white;
   background: rgba(255, 92, 1, 1);
   border: none;
-  height: 35px;
+  height: 32px;
   width: 120px;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
-  font-size: 14px;
   font-weight: bold;
 }
 
