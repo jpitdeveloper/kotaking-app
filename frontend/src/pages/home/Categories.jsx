@@ -19,7 +19,12 @@ const Category = () => {
         </div>
         <div className="categories-card">
           <img src={categoryImg} alt="category-image" />
-          <h4>Hot Dogs</h4>
+          <h4>Potato Fries</h4>
+          <p>(3 Varient)</p>
+        </div>
+        <div className="categories-card">
+          <img src={categoryImg} alt="category-image" />
+          <h4>Hot Dog</h4>
           <p>(4 Varients)</p>
         </div>
         <div className="categories-card">

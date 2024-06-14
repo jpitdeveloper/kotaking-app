@@ -14,8 +14,12 @@ const Home = () => {
       <div className="categories-section">
         <Categories />
       </div>
-      {/* <SpecialMenu/>  */}
-      {/* <Services/> */}
+      <div className="specialMenu-section">
+        <SpecialMenu />
+      </div>
+      <div className="services-section">
+        <Services />
+      </div>
     </>
   );
 };

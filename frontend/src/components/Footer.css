@@ -12,7 +12,6 @@
 }
 .footer-icons{
   margin-top: 15px;
-  /* display: flex; */
   text-align: center;
   gap: 25px;
 }
@@ -28,5 +27,4 @@
 }
 .footer-wrapper h3, .copywrite p{
   font-size: 14px;
-  margin-bottom: 7px;
 }
