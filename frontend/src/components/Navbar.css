@@ -1,6 +1,6 @@
-.active{
+.active {
   display: flex;
-  background: rgba(250, 194, 163, 1);;
+  background: rgba(250, 194, 163, 1);
   width: 100px;
   height: 30px;
   border-radius: 15px;
@@ -8,9 +8,8 @@
   align-items: center;
   justify-content: center;
   color: black;
-
 }
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,102 +20,67 @@ nav{
   background-color: #ffffff;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
-nav ul{
+nav ul {
   display: flex;
-  gap: 50px;
+  gap: 8px;
 }
-nav ul a{
+nav ul a {
   display: flex;
   font-weight: bold;
-  font-size: 18px;
   width: 100px;
   align-items: center;
   justify-content: center;
 }
-nav a{
+nav a {
   list-style: none;
   text-decoration: none;
   color: black;
 }
-.user-cart{
+.user-cart {
   display: flex;
   gap: 10px;
 }
 nav a:not(.active):hover {
-  background-color: rgba(250, 194, 163, 1);
+  background-color: rgba(250, 193, 163, 0.349);
   border-radius: 15px;
+  color: black;
 }
-nav .menu{
+nav .menu {
   display: none;
   flex-direction: column;
   justify-content: space-between;
 }
-
 @media (max-width: 768px) {
-	.container {
-		max-width: 640px;
-	}
-  nav{
+  .container {
+    max-width: 640px;
+  }
+  nav {
     height: 40px;
   }
-  nav .logo img{
+  nav .logo img {
     width: 110px;
   }
-.user-cart{
-  position: absolute;
-  right: 55px;
-}
-  nav .menu{
+  .user-cart {
+    position: absolute;
+    right: 55px;
+  }
+  nav .menu {
     display: flex;
     position: absolute;
     right: 2%;
   }
-  nav ul{
+  nav ul {
     display: none;
+    align-items: center;
     flex-direction: column;
     gap: 15px;
-    margin-top: 205px;
+    margin-top: 220px;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 0 0 10px 10px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  
   }
-  nav ul.open{
+  nav ul.open {
     display: flex;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-/* nav{
-  margin-top: 5px;
-  display: flex;
-  justify-content: space-between;
-
-}
-li{
-  list-style: none;
-}
-ul{
-  display: flex;
-  list-style: none;
-  gap: 50px;
-  font-size: 20px;
-  text-decoration: none;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-nav img{
-  width: 120px;
-} */

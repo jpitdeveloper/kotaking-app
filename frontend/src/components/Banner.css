@@ -22,6 +22,11 @@
   cursor: pointer;
   font-weight: bold;
 }
+.cat-button:hover {
+  background-color: rgba(250, 193, 163, 0.349);
+  color: black;
+  transition: 0.5s;
+}
 .banner img {
   width: 700px;
 }
