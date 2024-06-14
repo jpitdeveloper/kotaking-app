@@ -2,8 +2,45 @@ import React from "react";
 import "./SpecialMenu.css";
 import menuImg from "../../assets/images/menu.png";
 import { Star } from "lucide-react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const SpecialMenu = () => {
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <div className="popular-menu-section">
       <div className="popular-menu-section-heading">
@@ -13,7 +50,6 @@ const SpecialMenu = () => {
         </p>
       </div>
       <div className="popular-menu-cards-wrapper">
-        
         <div className="menu-card">
           <div className="menu-img">
             <img src={menuImg} alt="" />
@@ -73,7 +109,6 @@ const SpecialMenu = () => {
             <button className="buy-now-button">Order Now</button>
           </div>
         </div>
-
       </div>
     </div>
   );

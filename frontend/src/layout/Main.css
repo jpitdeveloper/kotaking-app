@@ -40,6 +40,7 @@ span {
   color: black;
   transition: 0.5s;
 }
+
 /* 2xl */
 @media (max-width: 1536px) {
   .container {
