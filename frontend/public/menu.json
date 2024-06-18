@@ -1,40 +1,40 @@
 [
     {
         "_id": "642c155b2c4774f05c36eeaa",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "name": "French Palony Sphatlho",
+        "recipe": "Quarter sliced Bread with Potato fries and French Palony",
         "image": "/images/recipes/img1.png",
-        "category": "salad",
+        "category": "spatlho",
         "price": 14.7
     },
     {
         "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "name": "Double Cheese Burger",
+        "recipe": "Fried burger with double cheese.",
         "image": "/images/recipes/img2.png",
-        "category": "drinks",
+        "category": "burger",
         "price": 14.7
     },
     {
         "_id": "642c155b2c4774f05c36ee7c",
-        "name": "Escalope de Veau",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "name": "Cheese & Burger Sphatlho",
+        "recipe": "Quarter sliced Bread with Potato fries, French Palony, Cheese, and Burger",
         "image": "/images/recipes/img1.png",
         "category": "popular",
         "price": 14.5
     },
     {
         "_id": "642c155b2c4774f05c36ee88",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+        "name": "Cheese & Burger Sphatlho",
+        "recipe": "Quarter sliced Bread with Potato fries, French Palony, Cheese, and Burger",
         "image": "/images/recipes/img1.png",
-        "category": "dessert",
+        "category": "spatlho",
         "price": 12.5
     },
     {
         "_id": "642c155b2c4774f05c36ee7a",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "name": "Meduim Fries",
+        "recipe": "Medium Packaged Fries",
         "image": "/images/recipes/img2.png",
         "category": "popular",
         "price": 14.5
@@ -42,7 +42,7 @@
     {
         "_id": "642c155b2c4774f05c36ee74",
         "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "recipe": "Large Packaged Fries",
         "image": "/images/recipes/img3.png",
         "category": "popular",
         "price": 14.5
