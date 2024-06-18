@@ -1,7 +1,7 @@
 import React from "react";
 import './Services.css'
-import timer from "../../assets/images/time-fast.png";
-import tickCard from "../../assets/images/shopping-cart-check.png";
+import timer from "/images/home/services/time-fast.png";
+import tickCard from "/images/home/services/shopping-cart-check.png";
 
 const Services = () => {
   return (

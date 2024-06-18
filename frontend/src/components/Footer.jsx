@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../assets/images/logo.png";
+import logo from "/logo.png";
 import { Facebook } from "lucide-react";
 import { Instagram } from "lucide-react";
-import paymentIcon from "../assets/images/payment-icons.png";
+import paymentIcon from "/payment-icons.png";
 
 const Footer = () => {
   return (

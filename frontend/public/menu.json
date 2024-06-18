@@ -2,23 +2,23 @@
     {
         "_id": "642c155b2c4774f05c36eeaa",
         "name": "French Palony Sphatlho",
-        "recipe": "Quarter sliced Bread with Potato fries and French Palony",
+        "recipe": "Quarter sliced bread with potato fries and French Palony",
         "image": "/images/recipes/img1.png",
-        "category": "spatlho",
+        "category": "sphatlho",
         "price": 14.7
     },
     {
         "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Double Cheese Burger",
-        "recipe": "Fried burger with double cheese.",
+        "name": "Double cheese and Burger",
+        "recipe": "Fried burger with double cheese",
         "image": "/images/recipes/img2.png",
         "category": "burger",
         "price": 14.7
     },
     {
         "_id": "642c155b2c4774f05c36ee7c",
-        "name": "Cheese & Burger Sphatlho",
-        "recipe": "Quarter sliced Bread with Potato fries, French Palony, Cheese, and Burger",
+        "name": "Cheese and Egg Sphatlho",
+        "recipe": "Quarter sliced bread with fried egg, cheese, potato fries, and french Palony",
         "image": "/images/recipes/img1.png",
         "category": "popular",
         "price": 14.5
@@ -26,23 +26,23 @@
     {
         "_id": "642c155b2c4774f05c36ee88",
         "name": "Cheese & Burger Sphatlho",
-        "recipe": "Quarter sliced Bread with Potato fries, French Palony, Cheese, and Burger",
+        "recipe": "Quarter sliced bread with cheese, burger, potato fries, and french Palony ",
         "image": "/images/recipes/img1.png",
-        "category": "spatlho",
+        "category": "sphatlho",
         "price": 12.5
     },
     {
         "_id": "642c155b2c4774f05c36ee7a",
-        "name": "Meduim Fries",
-        "recipe": "Medium Packaged Fries",
+        "name": "Double Cheese Burger",
+        "recipe": "Double fried burger and double cheese, with lattuce and cucamba",
         "image": "/images/recipes/img2.png",
         "category": "popular",
         "price": 14.5
     },
     {
         "_id": "642c155b2c4774f05c36ee74",
-        "name": "Roast Duck Breast",
-        "recipe": "Large Packaged Fries",
+        "name": "Hot Dog",
+        "recipe": "Single sausage hot dog",
         "image": "/images/recipes/img3.png",
         "category": "popular",
         "price": 14.5

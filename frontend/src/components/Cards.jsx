@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, Star } from "lucide-react";
 import "./Cards.css";
-import categoryImg from '../assets/images/home/category/sphatlho.png'
 
 const Cards = ({ item }) => {
   return (
@@ -13,7 +12,7 @@ const Cards = ({ item }) => {
       </Link> */}
       <div className="menu-card">
         <div className="menu-img">
-          <img src={categoryImg} alt="menu-image" />
+          <img src={item.image} alt="menu-image" />
         </div>
         <div className="menu-info">
           <h3 className="menu-title">{item.name}</h3>
