@@ -1,9 +1,7 @@
 .popular-menu-cards-wrapper{
-  margin-top: 15px;
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
   justify-content: center;
+  padding: 36px;
 }
 .menu-card{
   display: grid;
@@ -14,7 +12,6 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
   padding: 15px;
-  margin-bottom: 20px;
 }
 .menu-img{
   justify-self: center;
@@ -56,11 +53,13 @@
   font-weight: bold;
   border-radius: 25px;
 }
-.add-to-card-button{
-  background-color: rgb(247, 149, 96);
-}
 .buy-now-button{
-  background-color: rgb(87, 228, 87);
+  background-color: rgba(0, 186, 41, 1);
+  color: white;
+}
+.add-to-card-button{
+  background-color: rgba(255, 92, 1, 1);
+  color: white;
 }
 .price{
   font-size: 25px;

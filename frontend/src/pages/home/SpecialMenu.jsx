@@ -53,10 +53,9 @@ const SpecialMenu = () => {
     slidesToScroll: 1,
     initialSlide: 1,
     arrows: false, 
-    // autoplay: true,
-    // autoplaySpeed: 10000,
+    autoplay: true,
+    autoplaySpeed: 10000,
     // centerMode: true,
-    // adaptiveHeight: false,
     responsive: [
       {
         breakpoint: 1280,
