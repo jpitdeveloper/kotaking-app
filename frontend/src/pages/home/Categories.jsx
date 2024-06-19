@@ -35,7 +35,9 @@ const Category = () => {
       <div className="categories-card-wrapper">
         {categoryItems.map((item, i) => (
           <div className="categories-card" key={i}>
-            <img src={item.image} alt="category-image" />
+            <div className="image-bg">
+              <img src={item.image} alt="category-image" />
+            </div>
             <h4>{item.title}</h4>
             <p>{item.des}</p>
           </div>
