@@ -13,11 +13,18 @@
 }
 .popular-menu-section .slider-buttons button {
   width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 35px;
   border-radius: 50px;
-  background-color: rgb(211, 205, 201);
+  background-color: rgba(211, 205, 201, 0.466);
   border: none;
 }
 .popular-menu-section .slider-buttons button:nth-child(2){
   background-color: rgba(255, 92, 1, 1);
+  color: white;
+}
+.popular-menu-section .slider-buttons button svg{
+  width: 18px;
 }
