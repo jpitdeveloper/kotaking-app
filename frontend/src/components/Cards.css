@@ -1,37 +1,37 @@
-.popular-menu-cards-wrapper{
+.popular-menu-cards-wrapper {
   display: flex;
   justify-content: center;
   padding: 36px;
 }
-.menu-card{
+.menu-card {
   display: grid;
   align-items: center;
   background-color: white;
-  width:  330px;
+  width: 330px;
   height: 350px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
   padding: 15px;
 }
-.menu-img{
+.menu-img {
   justify-self: center;
 }
-.menu-img img{
+.menu-img img {
   width: 160px;
 }
-.menu-card h3{
+.menu-card h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.menu-card .menu-info p {
   font-size: 14px;
-} .menu-card .menu-info p{
-  font-size: 12px;
   color: rgba(85, 85, 85, 1);
 }
-.price-rating-wrapper{
+.price-rating-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
-  margin-bottom: 5px;
 }
-.rating-stats{
+.rating-stats {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -40,40 +40,51 @@
   width: 15px;
   color: goldenrod;
 }
-.buy-buttons{
-  display: flex;
-  flex-direction: row;
-  gap: 3px;
-  align-items: center;
-}
-.add-to-card-button, .buy-now-button{
-  width: 100%;
-  height: 35px;
-  border: none;
-  font-weight: bold;
-  border-radius: 25px;
-}
-.buy-now-button{
-  background-color: rgba(0, 186, 41, 1);
-  color: white;
-}
-.add-to-card-button{
-  background-color: rgba(255, 92, 1, 1);
-  color: white;
-}
-.price{
+
+.price {
   font-size: 25px;
 }
-.option{
+.menu-card .price span {
+  font-size: 18px;
+}
+.option {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 7px;
 }
-.option-item{
+.option-item {
   display: flex;
   gap: 5px;
 }
-.menu-items{
+.menu-items {
   margin-top: 5px;
+}
+.menu-card .menu-info h4 {
+  font-size: 14px;
+}
+/* Buy Buttons */
+.buy-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 14px;
+  align-items: center;
+}
+.add-to-card-button,
+.buy-now-button {
+  height: 35px;
+  font-weight: bold;
+  border-radius: 14px;
+}
+.buy-now-button {
+  background-color: rgba(0, 186, 41, 1);
+}
+.add-to-card-button {
+  background-color: rgba(255, 92, 1, 1);
+}
+.menu-card .buy-buttons button {
+  width: 120px;
+  border: none;
+  color: white;
 }

@@ -49,7 +49,7 @@ const SpecialMenu = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 1,
     arrows: false, 
@@ -58,10 +58,19 @@ const SpecialMenu = () => {
     // centerMode: true,
     responsive: [
       {
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          infinite: true,
+        },
+      },
+      {
         breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          infinite: true,
         },
       },
       {
