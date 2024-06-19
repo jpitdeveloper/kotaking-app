@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from "../../components/Cards";
+import { ChevronLeft } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 const simpleNextArrow = (props) => {
   const { className, style, onClick } = props;
@@ -93,11 +95,11 @@ const SpecialMenu = () => {
           <span className="uppercase">Customer Favourites</span>
         </p>
       </div>
-      {/* Popular Menu Slider */}
       <div className="slider-buttons">
-        <button onClick={() => slider?.current?.slickPrev()}>Prev</button>
-        <button onClick={() => slider?.current?.slickNext()}>Next</button>
+        <button onClick={() => slider?.current?.slickPrev()}> <ChevronLeft /></button>
+        <button onClick={() => slider?.current?.slickNext()}> <ChevronRight /></button>
       </div>
+      {/* Popular Menu Slider */}
       <Slider ref={slider} {...settings}>
         {recipes.map((item, i) => (
           <Cards key={i} item={item} />

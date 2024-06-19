@@ -1,0 +1,23 @@
+.specialMenu-section {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.popular-menu-section .slider-buttons {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  right: 0px;
+  top: 1.5%;
+}
+.popular-menu-section .slider-buttons button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: rgb(211, 205, 201);
+  border: none;
+}
+.popular-menu-section .slider-buttons button:nth-child(2){
+  background-color: rgba(255, 92, 1, 1);
+}

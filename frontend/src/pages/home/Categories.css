@@ -18,7 +18,7 @@
 .image-bg{
   display: flex;
   justify-content: center;
-  background-color: rgba(255, 99, 71, 0.336);
+  background-color: rgba(250, 194, 163, 1);
   width: 90px;
   height: 90px;
   border-radius: 45px;
