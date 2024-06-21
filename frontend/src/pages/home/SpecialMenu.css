@@ -20,6 +20,7 @@
   border-radius: 50px;
   background-color: rgba(211, 205, 201, 0.466);
   border: none;
+  cursor: pointer;
 }
 .popular-menu-section .slider-buttons button:nth-child(2){
   background-color: rgba(255, 92, 1, 1);

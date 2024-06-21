@@ -30,7 +30,7 @@ nav .logo img {
 }
 nav ul a {
   display: flex;
-  font-weight: bold;
+  /* font-weight: bold; */
   width: 100px;
   align-items: center;
   justify-content: center;

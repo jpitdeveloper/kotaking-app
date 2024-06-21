@@ -1,18 +1,18 @@
 import React from "react";
-import { Link, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import "./Cards.css";
+import { Link } from "react-router-dom";
 
 const Cards = ({ item }) => {
   return (
     <div className="popular-menu-cards-wrapper">
-      {/* <Link to={`/menu/${item._id}`}>
-        <figure>
-          <img src={item.image} alt="" />
-        </figure>
-      </Link> */}
       <div className="menu-card">
         <div className="menu-img">
-          <img src={item.image} alt="menu-image" />
+          <Link to={`/menu/${item._id}`}>
+            <figure>
+              <img src={item.image} alt="" />
+            </figure>
+          </Link>
         </div>
         <div className="menu-info">
           <h3 className="menu-title">{item.name}</h3>

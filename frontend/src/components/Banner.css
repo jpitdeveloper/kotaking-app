@@ -8,8 +8,10 @@
   flex-direction: column;
 }
 .banner .cat p{
+  margin-top: 7px;
   margin-bottom: 50px;
-  font-size: 18px;
+  /* font-size: 16px; */
+  color: rgba(85, 85, 85, 1);
 }
 .cat-button {
   font-size: 18px;
@@ -83,6 +85,6 @@
     width: 100%;
   }
   .banner .cat p{
-    font-size: 12px;
+    font-size: 14px;
   }
 }
