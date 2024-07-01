@@ -1,6 +1,7 @@
 .popular-menu-cards-wrapper {
   display: flex;
   padding: 4px;
+  justify-content: center;
 }
 .menu-card {
   display: grid;
