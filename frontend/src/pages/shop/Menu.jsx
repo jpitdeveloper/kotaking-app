@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Cards from "../../components/Cards";
-import './Menu.css'
+import "./Menu.css";
 
 const Menu = () => {
   const [menu, setMenu] = useState([]);
@@ -63,7 +63,7 @@ const Menu = () => {
         sortedItems.sort((a, b) => b.price - a.price);
         break;
       default:
-      break;
+        break;
     }
 
     setFilterdItems(sortedItems);
@@ -71,25 +71,21 @@ const Menu = () => {
 
   return (
     <>
-      <div className="banner">
-        <div className="cat">
-          <h1>
-            Browse All Of Our <span> Menu</span>
-          </h1>
-          <p>
-            Relax and get your sphatlho delivered to your door or come to
-            collect, your choice.
-          </p>
-          <button className="cat-button">Order Now</button>
-        </div>
+      <div className="menu-banner">
+        <h1>
+          Browse All Of Our <span> Menu</span>
+        </h1>
+        <p>
+          Relax and get your sphatlho delivered to your door or come to collect,
+          your choice.
+        </p>
+        <button className="cat-button">Order Now</button>
       </div>
       {/* products card */}
       <div className="menu-cards">
-        {
-          filterdItems.map((item) => (
-            <Cards key={item._id} item={item}/>
-          ))
-        }
+        {filterdItems.map((item) => (
+          <Cards key={item._id} item={item} />
+        ))}
       </div>
 
       {/* menu section */}

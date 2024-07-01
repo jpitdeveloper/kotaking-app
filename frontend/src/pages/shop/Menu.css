@@ -1,3 +1,11 @@
+.menu-banner{
+ text-align: center;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.menu-banner h1, p, button{
+  margin-bottom: 20px;
+}
 .menu-cards{
   display: flex;
   flex-wrap: wrap;
