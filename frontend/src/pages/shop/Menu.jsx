@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cards from "../../components/Cards";
 import "./Menu.css";
+import { Filter } from "lucide-react";
 
 const Menu = () => {
   const [menu, setMenu] = useState([]);
@@ -80,6 +81,23 @@ const Menu = () => {
           your choice.
         </p>
         <button className="cat-button">Order Now</button>
+      </div>
+      <div className="filter">
+        <div className="category-filter">
+          <button>All</button>
+          <button>Spatlho</button>
+          <button>Burger</button>
+          <button>Potato Fries</button>
+        </div>
+        <div className="filter-icon">
+          <Filter />
+          <select>
+            <option value="A-Z">A-Z</option>
+            <option value="Z-A">Z-A</option>
+            <option value="low-to-high">Low to High</option>
+            <option value="high-to-low">High to Low</option>
+          </select>
+        </div>
       </div>
       {/* products card */}
       <div className="menu-cards">

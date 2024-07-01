@@ -3,11 +3,29 @@
  margin-top: 30px;
  margin-bottom: 30px;
 }
-.menu-banner h1, p, button{
-  margin-bottom: 20px;
-}
 .menu-cards{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.category-filter{
+  display: flex;
+  gap: 25px;
+}
+.category-filter button{
+  border: none;
+  background: none;
+}
+.filter{
+  margin-top: 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-icon{
+  display: flex;
+  gap: 2px;
+  position: absolute;
+ top: -240%;
+ right: 0.5%;
 }
