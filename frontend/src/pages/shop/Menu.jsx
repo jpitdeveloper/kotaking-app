@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Cards from "../../components/Cards";
+import './Menu.css'
 
 const Menu = () => {
   const [menu, setMenu] = useState([]);
@@ -80,6 +82,14 @@ const Menu = () => {
           </p>
           <button className="cat-button">Order Now</button>
         </div>
+      </div>
+      {/* products card */}
+      <div className="menu-cards">
+        {
+          filterdItems.map((item) => (
+            <Cards key={item._id} item={item}/>
+          ))
+        }
       </div>
 
       {/* menu section */}

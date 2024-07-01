@@ -1,13 +1,12 @@
 .popular-menu-cards-wrapper {
   display: flex;
-  justify-content: center;
-  padding: 36px;
+  padding: 4px;
 }
 .menu-card {
   display: grid;
   align-items: center;
   background-color: white;
-  width: 330px;
+  width: 260px;
   height: 350px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
