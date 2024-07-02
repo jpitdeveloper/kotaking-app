@@ -24,22 +24,6 @@ span {
 .uppercase {
   text-transform: uppercase;
 }
-.primary-button {
-  color: white;
-  background: rgba(255, 92, 1, 1);
-  border: none;
-  height: 30px;
-  width: 130px;
-  border-radius: 15px;
-  cursor: pointer;
-  font-weight: bold;
-}
-.primary-button:hover {
-  background-color: rgba(250, 193, 163, 0.349);
-  border-radius: 15px;
-  color: black;
-  transition: 0.5s;
-}
 .active{
   text-decoration: underline;
   text-underline-offset: 5px;

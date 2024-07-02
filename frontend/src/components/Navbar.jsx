@@ -17,22 +17,20 @@ const Navbar = () => {
         <Link className="logo">
           <img src={logo} alt="logo" />
         </Link>
-
         <ul className={menuOpen ? "open" : ""}>
           <NavLink to="/">Home</NavLink>
-          <NavLink to='/menu'>Menu</NavLink>
-          <Link to="">About Us</Link>
-          <Link className="contact primary-button" to="#">
-            Contact Us
-          </Link>
+          <NavLink to="/menu">Menu</NavLink>
+          <Link to="#">About Us</Link>
+          <Link to="#">Contact Us</Link>
         </ul>
         <div className="user-cart">
           <Link className="cart">
             <ShoppingBasket />
             <p>10</p>
           </Link>
-          <Link>
+          <Link className="login-button">
             <User />
+            Login
           </Link>
         </div>
         <div
