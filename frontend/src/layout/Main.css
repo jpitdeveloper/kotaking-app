@@ -40,6 +40,11 @@ span {
   color: black;
   transition: 0.5s;
 }
+.active{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: rgba(255, 92, 1, 1);
+  }
 
 /* 2xl */
 @media (max-width: 1536px) {

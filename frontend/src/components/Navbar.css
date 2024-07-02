@@ -1,14 +1,3 @@
-.active {
-  display: flex;
-  background: rgba(250, 194, 163, 1);
-  width: 100px;
-  height: 30px;
-  border-radius: 15px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: black;
-}
 nav {
   display: flex;
   justify-content: space-between;

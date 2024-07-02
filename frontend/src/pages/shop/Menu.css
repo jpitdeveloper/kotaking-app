@@ -10,6 +10,7 @@
 }
 .category-filter{
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
 }
 .category-filter button{
@@ -17,15 +18,21 @@
   background: none;
 }
 .filter{
-  margin-top: 70px;
+  margin-top: 80px;
   position: relative;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .filter-icon{
   display: flex;
   gap: 2px;
   position: absolute;
- top: -240%;
+ top: -280%;
  right: 0.5%;
+}
+.filter-icon, select{
+  background: #000;
+  color: white;
+  padding: 1px;
 }

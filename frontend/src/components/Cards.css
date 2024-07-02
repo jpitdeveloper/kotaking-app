@@ -88,3 +88,24 @@
   border: none;
   color: white;
 }
+.pagination{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.pagination-buttons{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
+.active-page{
+  background-color: rgba(255, 92, 1, 1);
+  color: white;
+}
+.not-active-page{
+  background-color: rgb(221, 215, 212);
+}
