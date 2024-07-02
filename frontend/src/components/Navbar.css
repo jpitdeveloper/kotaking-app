@@ -54,10 +54,10 @@ nav .user-cart .cart p {
   font-size: 14px;
   border-radius: 15px;
   transition: 0.5s;
-  font-weight: bold;
   width: 20px;
   display: flex;
   justify-content: center;
+  color: white;
 }
 .login-button {
   display: flex;
