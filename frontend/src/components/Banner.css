@@ -19,10 +19,14 @@
   width: 140px;
   color: white;
   background: rgba(255, 92, 1, 1);
-  border: none;
   border-radius: 5px;
-  cursor: pointer;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
 }
 .cat-button:hover {
   background-color: rgba(250, 193, 163, 0.349);

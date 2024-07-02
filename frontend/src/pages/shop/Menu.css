@@ -3,6 +3,12 @@
  margin-top: 30px;
  margin-bottom: 30px;
 }
+.menu-banner h1, p{
+  margin-bottom: 10px;
+}
+.menu-banner p{
+  color: rgba(85, 85, 85, 1);
+}
 .menu-cards{
   display: flex;
   flex-wrap: wrap;

@@ -88,7 +88,7 @@ const Menu = () => {
           Relax and get your sphatlho delivered to your door or come to collect,
           your choice.
         </p>
-        <button className="cat-button">Order Now</button>
+        {/* <button className="cat-button">Order Now</button> */}
       </div>
       <div className="filter">
         <div className="category-filter">
