@@ -5,7 +5,6 @@ import { Menu } from "lucide-react";
 import { X } from "lucide-react";
 import { ShoppingBasket } from "lucide-react";
 import { User } from "lucide-react";
-
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -28,6 +27,7 @@ const Navbar = () => {
             <ShoppingBasket />
             <p>10</p>
           </Link>
+          {/* login button */}
           <Link className="login-button">
             <User />
             Login

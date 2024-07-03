@@ -25,10 +25,10 @@ const Cards = ({ item }) => {
               {item.price}
             </strong>
           </p>
-          <div className="rating-stats">
+          {/* <div className="rating-stats">
             <Star className="rating-star" />
             <p>4.4</p>
-          </div>
+          </div> */}
         </div>
         <div className="buy-buttons">
           <button className="buy-now-button">Order Now</button>

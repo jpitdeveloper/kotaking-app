@@ -30,6 +30,7 @@
 .price-rating-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .rating-stats {
   display: flex;
